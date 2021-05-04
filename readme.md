@@ -26,7 +26,7 @@ To-do list:
 
 ## Status
 
-![progress](https://img.shields.io/badge/Progress-80%_Complete-green?style=for-the-badge)
+![progress](https://img.shields.io/badge/Progress-80%25-green?style=for-the-badge)
 
 ## Contact
 
