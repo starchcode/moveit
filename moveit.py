@@ -33,9 +33,13 @@ def moveIt():
     time.sleep(0.1) # Wait again...
     mouse.click(button.right, 1) # make a right click!
 
+    time.sleep(0.05) # Wait again...
+    mouse.position = (700, 1000)
+    mouse.click(button.left, 1) # make a click!
+
     time.sleep(0.1) # Wait...
     mouse.position = (int(currentPos[0]), int(currentPos[1])) #move mouse back to where it was!
-    print("Count:", count, "Mouse moved at:", current_time)
+    # print("Count:", count, "Mouse moved at:", current_time)
 
     # # Keyboard action
     # time.sleep(0.1)
